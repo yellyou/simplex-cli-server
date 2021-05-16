@@ -1,0 +1,24 @@
+{
+  "name": "@simplex-cli-dev/request",
+  "version": "1.0.3",
+  "description": "> TODO: description",
+  "author": "simplex1994 <1185482929@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "0ab2cfc9c9785ae3e4f326e96114a45dacdb0857"
+}

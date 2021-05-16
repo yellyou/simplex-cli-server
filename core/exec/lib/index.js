@@ -5,8 +5,8 @@ const log = require('@simplex-cli-dev/log');
 const { exec: spawn } = require('@simplex-cli-dev/utils');
 
 const SETTINGS = {
-  init: '@imooc-cli/init',
-  publish: '@imooc-cli/publish',
+  init: '@simplex-cli/init',
+  publish: '@simplex-cli/publish',
 };
 
 const CACHE_DIR = 'dependencies';

@@ -184,8 +184,8 @@ class InitCommand extends Command {
   async downloadTemplate() {
     const { projectTemplate } = this.projectInfo;
     const templateInfo = this.template.find(item => item.npmName === projectTemplate);
-    const targetPath = path.resolve(userHome, '.imooc-cli-dev', 'template');
-    const storeDir = path.resolve(userHome, '.imooc-cli-dev', 'template', 'node_modules');
+    const targetPath = path.resolve(userHome, '.simplex-cli-dev', 'template');
+    const storeDir = path.resolve(userHome, '.simplex-cli-dev', 'template', 'node_modules');
     const { npmName, version } = templateInfo;
     this.templateInfo = templateInfo;
     const templateNpm = new Package({
